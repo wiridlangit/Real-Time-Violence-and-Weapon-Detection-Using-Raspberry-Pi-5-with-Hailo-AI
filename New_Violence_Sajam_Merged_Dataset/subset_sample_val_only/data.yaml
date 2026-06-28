@@ -1,0 +1,8 @@
+# data_val300.yaml
+
+path: C:\Users\suluh\Downloads\Project-Tugas-Akhir\YOLOv11-Violence-Detection\New_Violence_Sajam_Merged_Dataset\subset_sample_val_only
+train: dummy_folder  # Not used in tuning
+val: custom_val_300  # Relative to 'path' or provide full path
+
+nc: 3
+names: ["NonViolence", "Violence", "Sharp-Object"]
